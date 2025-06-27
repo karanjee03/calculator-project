@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="calc.css">
+  <title>Calculator</title>
+</head>
+
+
+  
+  <main>
+    <!--main container div-->
+    <div class="cont" id="cont">
+      <!--inputs div-->
+      <div class="input_div">
+        <!--input-->
+        <input type="text" class="input" id="ans" placeholder="ANS ..." readonly="">
+        <input type="text" class="input" id="quest" placeholder="expression">
+          </div>
+        
+   <div class="btns" id="btns">
+          <!--buttons-->
+      <div class="b" id="b1"
+      onclick="   document.getElementById('quest').value += 1 ">1</div>
+
+  <div class="b" id="b2"   onclick="document.getElementById('quest').value += 2">2</div>  
+  <div class="b" id="b3"  onclick="document.getElementById('quest').value += 3">3</div>  
+    <div class="b" id="b1clear"> < </div> 
+  <div class="b" id="b4"   onclick="document.getElementById('quest').value += 4">4</div> 
+  <div class="b" id="b5"  onclick="document.getElementById('quest').value += 5">5</div>  
+  <div class="b" id="b6"  onclick="document.getElementById('quest').value += 6">6</div> 
+  
+    <div class="b" id="bclear">Clear</div>  
+  <div class="b" id="b7"  onclick="document.getElementById('quest').value += 7">7</div> 
+  <div class="b" id="b8"  onclick="document.getElementById('quest').value += 8">8</div> 
+  <div class="b" id="b9"  onclick="document.getElementById('quest').value += 9">9</div>  
+  
+  <div class="b" id="bplus" 
+      onclick="   document.getElementById('quest').value += '+' ">+</div>
+  
+  
+  <div class="b" id="b0"  onclick="document.getElementById('quest').value += 0">0</div>  
+  
+
+  <div class="b" id="b0"  onclick="document.getElementById('quest').value += '00'">00</div>  
+  
+  <div class="b" id="bpoint" onclick="   document.getElementById('quest').value += '.'">.</div>
+  <div class="b" id="bsub"
+      onclick="   document.getElementById('quest').value += '-'">-</div>
+      
+        <div class="b" id="bbracket1"onclick="   document.getElementById('quest').value += '('">(</div>
+
+  <div class="b" id="bbracket2" onclick="   document.getElementById('quest').value += ')'">)</div>
+      
+      
+  <div class="b" id="bproduct"
+      onclick="   document.getElementById('quest').value += '*' ">*</div>
+  <div class="b" id="bdiv"
+      onclick="   document.getElementById('quest').value += '/'">/</div>  
+    
+  
+  
+
+  <div class="b" id="bequal" >=</div>
+  
+    <!--btns end-->
+ 
+    </div>
+    <!--main cont end-->
+    </div>
+    
+  </main>
+  <!--<input type="file" capture="user" accept="image/*"id="" multiple>-->
+  <footer>
+   
+  </footer>
+
+
+</body>
+<script src="calc.js">
+
+</script>
+</html>
