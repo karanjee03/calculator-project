@@ -16,9 +16,7 @@ const question = document.getElementById('quest');
  
  })
  
- 
-
-const equal = document.getElementById('bequal');
+ const equal = document.getElementById('bequal');
 equal.addEventListener("click", function () {
   // Tab to edit
    var ans = document.getElementById('ans');
@@ -29,42 +27,4 @@ equal.addEventListener("click", function () {
 })
 
  
- /*
-
-
-const bsub = document.getElementById('bsub');
-bsub.addEventListener("click", function(){
  
-var ans = document.getElementById('ans');
-let firstval = question.value;
- ans.value+= firstval;
- ans.value += '-';
- question.value = " ";
-})
-
-
-const bproduct = document.getElementById('bproduct');
-bproduct.addEventListener("click", function(){
-  
-var ans = document.getElementById('ans');
-let firstval = question.value;
-
- ans.value+= firstval;
-
- ans.value += '*';
- question.value = " ";
-})
-
-const bdiv = document.getElementById('bdiv');
-bdiv.addEventListener("click", function(){
-  
-  
-var ans = document.getElementById('ans');
-let firstval = question.value;
-
- ans.value+= firstval;
-
- ans.value += '/';
- question.value = " ";
-})
-*/
